@@ -325,12 +325,14 @@ body{
 .mobile>li{
     font-size: 18px;
     margin-left: 50px;
+    padding-bottom: 5px;
 }
 
 #hamber{
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #FFC017;
+    background-color: #8e8787;
+    color: white;
     align-items: center;
     padding-left:10px ;
     display: none;
@@ -340,7 +342,7 @@ body{
 #hamber div{
     width: 30px;
     height: 2px;
-    background-color: #191919;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -352,7 +354,7 @@ body{
 }
 
 .open .bar2{
-    opacity: 0;
+    opacity: 10px;
 }
 
 .open .bar3{
@@ -363,7 +365,7 @@ body{
  .open .mobile{
     display: none;
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 0;
     height: calc(100vh - 50px);
     width: 100%;
@@ -375,7 +377,7 @@ body{
     border-color: transparent;
     padding: 5px 20px;
     border-radius: 50px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .loading{
@@ -385,6 +387,12 @@ body{
 .download{
     display: none;
 }
+
+/*******     meida ********/
+
+
+
+
 
 
 @media screen  and (max-width: 600px) and (min-width: 300px){
@@ -431,7 +439,7 @@ body{
     }
     
     .trend{
-        margin: 0;
+        margin-left: 20px;
         font-size: 17px;
         color: #75758B;
         font-weight: 600;
@@ -443,8 +451,10 @@ body{
     }
     
     .news01{
+        padding-left: 10px;
+        margin-left: 10px;
         border: 1px solid rgb(142, 135, 135);
-        width: 100%;
+        width: 90%;
     }
     .news01>p{
         color: #a39696;
@@ -495,7 +505,7 @@ body{
     .mid01{
         border: 1px solid rgb(136, 128, 128);
         padding-left: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
         width: 90%;
         height: auto;
         display: flex;
@@ -510,17 +520,17 @@ body{
         height: 30px;
     }
     .mid01-02>h2{
-        font-size: 18px;
+        font-size: 15px;
         height: 30px;
-        padding-left: 10px;
-        line-height: 25px;
-        width: 90%;
+        padding-left: 5px;
+        line-height: 20px;
+        width: 95%;
         padding-bottom: 10px;
     }
     .mid01-02>h3{
         width: 90%;
         padding-left: 10px;
-        font-size: 14px;
+        font-size: 12px;
         height: 30px;
         color: #75758B;
     }
@@ -543,12 +553,12 @@ body{
     
     .mid01-03>p{
         padding-left: 10px;
-        font-size: 13px;
+        font-size: 10px;
         color: #75758B;
     
     }
     .mid01-04>img{
-        width: 40px;
+        width: 100%;
         height: 100%;
     }
     
@@ -556,12 +566,8 @@ body{
         font-size: 13px;
         background-color: #F2F2F2;
         color: #75758B;
-        padding: 5px 15px;
+        padding: 5px 10px;
         border-radius: 70px;
-    }
-    .mid01-04>img{
-        width: 100%;
-        height: 100%;
     }
     
     
@@ -596,11 +602,15 @@ body{
         display: flex;
         margin: auto ;
         text-align: center;
-        padding: 20px 40px;
+        padding: 20px 30px;
         border-radius: 20px;
         background-color: #838389;
         color: white;
         border-color: transparent;
+    }
+    .lod{
+        padding-bottom: 30px;
+        display: block;
     }
     
     .download{
@@ -613,7 +623,7 @@ body{
     }
 
     .d1>img{
-        width: 200px;
+        width: 180px;
     }
 
     .d2{
